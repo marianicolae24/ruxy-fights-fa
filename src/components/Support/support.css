@@ -1,0 +1,65 @@
+.support-container {
+  background-color: var(--second-palette);
+  border-radius: var(--border-radius1);
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.half-size {
+  max-width: 50%;
+  line-height: 2rem;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.bank-details {
+  border: 2px dashed #000;
+  border-radius: var(--border-radius2);
+  background-color: #fff;
+
+  padding: 10px;
+  width: fit-content;
+}
+
+.contact-text {
+  font-family: var(--title-font);
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.contact-card {
+  border: 3px solid #000;
+  border-radius: var(--border-radius2);
+  background-color: #fff;
+
+  padding: 10px;
+  width: fit-content;
+}
+
+.pink-bg {
+  color: var(--warm-pink);
+}
+
+.border-bt {
+  border-bottom: 1px solid var(--warm-pink);
+  padding: 15px;
+}
+
+.no-underline {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 687px) {
+  .support-container {
+    padding: 20px 5px;
+  }
+
+  .half-size {
+    max-width: 100%;
+  }
+}

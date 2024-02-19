@@ -1,0 +1,150 @@
+:root {
+  --first-palette: #fff;
+  --second-palette: #e6ecff;
+  --third-palette: #ccd9ff;
+  --fourth-palette: #6b7db3;
+
+  --bolded-terms: #c59670;
+  --warm-pink: #ee7385;
+
+  --border-radius1: 8px;
+  --border-radius2: 20px;
+
+  --title-font: "Space Mono", monospace;
+  --subtitle-font: "Space Grotesk", sans-serif;
+  --text-font: "Space Grotesk", sans-serif;
+
+  --intagramLike-border: 4px solid #0095f6;
+}
+body {
+  background-color: var(--first-palette);
+  margin: 20px 0;
+}
+
+.layout-container {
+  margin: 0 auto;
+  max-width: 90vw;
+}
+
+.new-line {
+  display: block;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.navbar-content {
+  background-color: var(--third-palette);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: var(--border-radius1);
+}
+
+.menu-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+
+  text-align: center;
+}
+
+.menu-options a {
+  text-decoration: none;
+  color: var(--fourth-palette);
+
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.6em;
+  letter-spacing: 0.125em;
+}
+
+.option {
+  padding: 1em 1.5em;
+}
+
+.button-like {
+  background-color: var(--fourth-palette);
+  border-radius: var(--border-radius2);
+}
+
+.button-like a {
+  color: var(--first-palette);
+  font-weight: 400;
+}
+
+.on-hover a:hover {
+  color: var(--first-palette);
+}
+
+.button-like:hover {
+  background-color: var(--third-palette);
+}
+.button-like:hover > a {
+  color: var(--fourth-palette);
+}
+
+/* Section - general styling */
+section {
+  margin: 50px 0;
+}
+
+span.bolded-term {
+  color: var(--bolded-terms);
+}
+
+.title {
+  font-family: var(--title-font);
+  font-size: 2rem;
+
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-family: var(--subtitle-font);
+  color: #ee7385;
+  font-style: italic;
+  font-size: 20px;
+
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.text {
+  font-family: var(--text-font);
+  line-height: 1.6rem;
+}
+
+.flex-col-10 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-block {
+  padding: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .navbar-content {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .menu-options {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section {
+    max-width: 100vw;
+  }
+  .video {
+    max-width: 100%;
+  }
+}
