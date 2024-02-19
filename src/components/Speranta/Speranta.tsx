@@ -24,8 +24,8 @@ function Speranta() {
                 Medicamentul a fost dezvoltat inițial de către Reata
                 Pharmaceuticals (companie aflată acum sub umbrela Biogen) și
                 este un tratament oral, ce presupune administrarea zilnică a
-                unei pastile cu 50mg de substanță activă. El trebuie luat în
-                continuu, costul anul fiind, momentan, de{" "}
+                unei pastile cu 50mg de substanță activă. El trebuie luat
+                încontinuu, costul anul fiind, momentan, de{" "}
                 <span className="bolded-term">370.000$</span>. La momentul
                 actual, în S.U.A. există pacienți care beneficiază de decontarea
                 tratamentului, fapt care, din păcate, nu se întâmplă deocamdată
