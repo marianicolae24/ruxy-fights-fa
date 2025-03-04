@@ -1,5 +1,7 @@
 import React from "react";
 import "./support.css";
+import RuxStanding from "../../images/rux-standing.jpeg";
+import RuxMotivated from "../../images/rux-motivated.jpeg";
 
 function Support() {
   return (
@@ -50,11 +52,17 @@ function Support() {
                   noi asociații. Te asigur că toate donațiile care îmi poartă
                   numele vor ajunge la mine.
                 </p>
+                <p className="no-underline">Asociatia A.S.R.A</p>
+
                 <div className="bank-details">
-                  <p className="text">Cod IBAN: </p>
-                  <p className="no-underline">RO45 INGB 0000 9999 0499 7735</p>
+                  <p className="text">IBAN: </p>
+                  <p className="no-underline">RO57 INGB 0000 9999 1583 0770</p>
                   <p className="text" style={{ color: "#032443" }}>
                     ING Bank
+                  </p>
+                  <p className="bolded-term">
+                    Drumul Sarii, Nr 2, Bl V55, Sc 2, Et 10, Ap 79, cod postal
+                    060154, Bucuresti, Sectorul 6
                   </p>
                 </div>
               </div>
@@ -104,6 +112,16 @@ function Support() {
                   <span className="pink-bg">Email:</span> alina.sixt@gmail.com
                 </p>
               </div>
+            </div>
+            <div className="image-grid">
+              <img
+                src={RuxStanding}
+                alt="Ruxy standing, assisted by advanced medical robot"
+              />
+              <img
+                src={RuxMotivated}
+                alt="Rux under a poster with a motivational saying of Napoleon"
+              />
             </div>
           </div>
         </div>

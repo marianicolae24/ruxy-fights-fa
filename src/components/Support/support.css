@@ -49,9 +49,26 @@
   padding: 15px;
 }
 
+.bolded-term {
+  font-weight: bold;
+}
+
 .no-underline {
   text-decoration: none;
   color: black;
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: adds rounded corners */
 }
 
 @media screen and (max-width: 687px) {

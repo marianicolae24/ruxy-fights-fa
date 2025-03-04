@@ -19,7 +19,7 @@ function PovesteaMea() {
               </p>
               <p className="text">
                 Numele meu este Ruxandra, mai exact Ruxandra Maria Popescu.
-                Povestea mea începe în urmă cu vreo 17 ani când ei bine ... m-am
+                Povestea mea începe în urmă cu vreo 18 ani când ei bine ... m-am
                 născut. Deși poate părea incredibil, lucrurile n-au fost chiar
                 așa de la început. Alergam, zburdam, exploram și copilăream,
                 exact așa cum o făceai și tu, sper. Și poate chiar încă o mai
