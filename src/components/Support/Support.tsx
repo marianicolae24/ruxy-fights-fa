@@ -72,7 +72,15 @@ function Support() {
                 vei contacta!
               </p>
               <p className="text border-bt">
-                5. Redirecționarea impozitului pe venit către asociație
+                5. Redirecționarea impozitului pe venit către asociație{" "}
+                <span className="formular">
+                  <a
+                    href="https://redirectioneazaimpozit.ro/asociatia-asra"
+                    target="_blank"
+                  >
+                    https://redirectioneazaimpozit.ro/asociatia-asra
+                  </a>
+                </span>
               </p>
 
               <div className="donatie-revolut border-bt">
